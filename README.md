@@ -1,7 +1,9 @@
 # okta-aws-helper-scripts
 Scripts to help with Okta authentication to AWS
 
-Depends on https://github.com/oktadeveloper/okta-aws-cli-assume-role
+Depends on [okta-aws-cli-assume-role](https://github.com/oktadeveloper/okta-aws-cli-assume-role) and [aws-cli](https://github.com/aws/aws-cli)
+
+Please see [ansible-role-okta-aws-cli-assume-role](https://github.com/afpacket/ansible-role-okta-aws-cli-assume-role) for assistance with installation of [okta-aws-cli-assume-role](https://github.com/oktadeveloper/okta-aws-cli-assume-role) on Linux systems.
 
 ## Instructions
 Copy scripts to /usr/local/bin and add these to your bashrc 
