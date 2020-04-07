@@ -5,8 +5,6 @@ if [ $(whoami) != 'root' ]; then
    exit 1
 fi
 
-cd /usr/local/bin
-
 cp okta-login.sh /usr/local/bin
 cp aws-native-mfa-login.sh /usr/local/bin
 cp aws-setenv.sh /usr/local/bin
