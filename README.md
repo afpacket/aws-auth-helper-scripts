@@ -1,4 +1,4 @@
-# okta-aws-helper-scripts
+# aws-auth-helper-scripts
 Scripts to help with Okta authentication to AWS
 
 Depends on [aws-cli](https://github.com/aws/aws-cli) and either [okta-awscli](https://github.com/jmhale/okta-awscli) or [okta-aws-cli-assume-role](https://github.com/oktadeveloper/okta-aws-cli-assume-role). 
