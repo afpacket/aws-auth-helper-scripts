@@ -16,10 +16,6 @@ else
   MFA_TOKEN="$2"
 fi
 
-show_usage() {
-   echo -e "Usage: $0 profile [mfa-code]"
-}
-
 AWS_SESSION_CREDENTIALS=$(aws sts get-session-token --serial-number "$MFA_SERIAL" --token-code "$MFA_TOKEN" --profile "$PROFILE")
 
 ACCESS_KEY_ID=$(echo "$AWS_SESSION_CREDENTIALS" | jq '.Credentials.AccessKeyId') 
